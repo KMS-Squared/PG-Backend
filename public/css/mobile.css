@@ -1,0 +1,104 @@
+html, body, div, span, section,
+article, nav, header, footer, img, ul, li
+a, em, b{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+body{
+	background-attachment: fixed;
+	background-color: #192124;
+	background-image: url("../assests/main_bg.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 10%;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 15px;
+	line-height: 14px;
+}
+
+@-ms-viewport{
+  width: device-width;
+}
+
+/****************HEADER**********/
+header{
+	background: -webkit-radial-gradient(center, ellipse,
+		rgba(239, 209, 190,0.6) 50%,
+		rgba(255,238,155,1) 75%,
+		rgba(254,194,79,1) 99%);
+
+	/*background-image: -webkit-gradient(
+  		linear, left top, left bottom, from(rgba(30,87,153,0.8)),
+  		to(rgba(19, 21, 38 ,0.8)), color-stop(.6,#1e223e)
+		);*/
+	width: 100%;
+	height: auto;
+	margin: 0px;
+	padding: 80px 0;
+	text-align: center;
+}
+
+header h1{
+	color: #fff;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 40px;
+	margin: 10px auto 20px;
+}
+header #logo{
+	margin: 30px auto 0px;
+	width: 30%;
+}
+/****************MAIN CONTENT***********/
+
+.wrapper{
+	margin-top: 0px;
+	width: 100%;
+	height: auto;
+	background-color: #ffffff;
+	padding: 0px;
+	border: 0px;
+}
+
+.content {
+	width: 90%;
+	height: 100%;
+	background-color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+}
+
+.content h2{
+	font-family: 'Maven Pro', sans-serif;
+	color: black;
+	font-size: 40px;
+}
+
+h1, h2 {
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	line-height: 0px;
+}
+
+section{
+	width: 100%;
+	background-color: #ffffff;
+	padding: 0px;
+	margin: auto;
+	border: 1px solid white;
+}
+
+.about{
+	width: 100%;
+	line-height: 35px;
+	margin: 10px;
+	padding: 10px 10px;
+	text-align: center;
+}
+
+.team {
+	height: 400px;
+	text-align: center;
+}
+
