@@ -25,12 +25,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/redrogers/thesis.git"
+    "url": "git+https://github.com/KMS-Squared/thesis.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/redrogers/thesis/issues"
+    "url": "https://github.com/KMS-Squared/thesis/issues"
   },
-  "homepage": "https://github.com/redrogers/thesis#readme"
+  "homepage": "https://github.com/KMS-Squared/thesis#readme"
 }
